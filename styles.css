@@ -132,6 +132,11 @@ header h2 {
     color: #fff;
 }
 
+.chatbot .chat p.error {
+    background: #f8d7da;
+    color: #721c24;
+}
+
 .chatbot .incoming p {
     border-radius: 10px 10px 10px 0;
     color: #000;
@@ -190,4 +195,3 @@ header h2 {
         display: block;
    }
 }
-
