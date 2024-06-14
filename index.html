@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Chatbot - ChopBong</title>
+        <link rel="stylesheet" href="styles.css">
+        <script type="module" src="./index.js" defer></script>
+        <script src="https://kit.fontawesome.com/23cc2cc7c7.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <button class="chatbot-toggler">
+            <i class="fa-solid fa-message"></i>
+            <i class="fa-solid fa-xmark"></i>
+        </button>
+        <div class="container">
+            <header>
+                <h2>Chatbot</h2>
+                <i class="fa-solid fa-xmark"></i>
+            </header>
+            <ul class="chatbot">
+                <li class="chat incoming">
+                    <i id="chatbot-avt" class="fa-solid fa-robot"></i>
+                    <p>Hi there ✌️ <br> How can I help you today?</p>
+                </li>
+                <li class="chat outgoing"></li>
+            </ul>
+            <div class="chat-input">
+                <textarea placeholder="Enter a message..." required></textarea>
+                <i id="send-btn" class="fa-solid fa-paper-plane"></i>
+            </div>
+        </div>
+    </body>
+</html>
